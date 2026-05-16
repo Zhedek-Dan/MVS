@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<mvs>
+  <processors>4</processors>
+  <prog_count>24</prog_count>
+  <net_limit>14600</net_limit>
+  <programs>
+    <program id="1" load="11"/>
+    <program id="2" load="11"/>
+    <program id="3" load="14"/>
+    <program id="4" load="21"/>
+    <program id="5" load="11"/>
+    <program id="6" load="11"/>
+    <program id="7" load="11"/>
+    <program id="8" load="11"/>
+    <program id="9" load="14"/>
+    <program id="10" load="14"/>
+    <program id="11" load="21"/>
+    <program id="12" load="14"/>
+    <program id="13" load="11"/>
+    <program id="14" load="4"/>
+    <program id="15" load="14"/>
+    <program id="16" load="4"/>
+    <program id="17" load="21"/>
+    <program id="18" load="21"/>
+    <program id="19" load="14"/>
+    <program id="20" load="21"/>
+    <program id="21" load="11"/>
+    <program id="22" load="11"/>
+    <program id="23" load="4"/>
+    <program id="24" load="21"/>
+  </programs>
+  <communications>
+    <comm from="1" to="17" intensity="71"/>
+    <comm from="1" to="11" intensity="49"/>
+    <comm from="1" to="2" intensity="49"/>
+    <comm from="2" to="22" intensity="21"/>
+    <comm from="3" to="7" intensity="21"/>
+    <comm from="3" to="12" intensity="99"/>
+    <comm from="2" to="4" intensity="49"/>
+    <comm from="4" to="18" intensity="21"/>
+    <comm from="5" to="14" intensity="99"/>
+    <comm from="1" to="5" intensity="49"/>
+    <comm from="6" to="8" intensity="49"/>
+    <comm from="6" to="20" intensity="49"/>
+    <comm from="7" to="8" intensity="99"/>
+    <comm from="5" to="7" intensity="99"/>
+    <comm from="8" to="13" intensity="99"/>
+    <comm from="8" to="14" intensity="49"/>
+    <comm from="9" to="10" intensity="21"/>
+    <comm from="7" to="9" intensity="21"/>
+    <comm from="10" to="15" intensity="71"/>
+    <comm from="10" to="11" intensity="21"/>
+    <comm from="4" to="11" intensity="99"/>
+    <comm from="11" to="22" intensity="21"/>
+    <comm from="12" to="16" intensity="71"/>
+    <comm from="12" to="20" intensity="71"/>
+    <comm from="12" to="13" intensity="21"/>
+    <comm from="13" to="17" intensity="21"/>
+    <comm from="12" to="14" intensity="49"/>
+    <comm from="14" to="18" intensity="99"/>
+    <comm from="6" to="15" intensity="99"/>
+    <comm from="14" to="15" intensity="71"/>
+    <comm from="16" to="20" intensity="49"/>
+    <comm from="16" to="19" intensity="49"/>
+    <comm from="5" to="17" intensity="71"/>
+    <comm from="15" to="17" intensity="49"/>
+    <comm from="12" to="18" intensity="71"/>
+    <comm from="10" to="18" intensity="99"/>
+    <comm from="19" to="24" intensity="21"/>
+    <comm from="17" to="19" intensity="99"/>
+    <comm from="13" to="20" intensity="99"/>
+    <comm from="8" to="20" intensity="49"/>
+    <comm from="17" to="21" intensity="71"/>
+    <comm from="10" to="21" intensity="21"/>
+    <comm from="22" to="24" intensity="49"/>
+    <comm from="12" to="22" intensity="99"/>
+    <comm from="13" to="23" intensity="21"/>
+    <comm from="22" to="23" intensity="21"/>
+    <comm from="1" to="24" intensity="49"/>
+    <comm from="10" to="24" intensity="99"/>
+    <comm from="14" to="22" intensity="21"/>
+    <comm from="8" to="19" intensity="0"/>
+    <comm from="2" to="15" intensity="71"/>
+    <comm from="21" to="23" intensity="99"/>
+    <comm from="12" to="19" intensity="21"/>
+    <comm from="2" to="5" intensity="71"/>
+    <comm from="19" to="21" intensity="0"/>
+    <comm from="4" to="17" intensity="99"/>
+    <comm from="15" to="20" intensity="71"/>
+    <comm from="13" to="22" intensity="49"/>
+    <comm from="1" to="22" intensity="0"/>
+    <comm from="8" to="15" intensity="71"/>
+    <comm from="13" to="21" intensity="49"/>
+    <comm from="20" to="21" intensity="99"/>
+    <comm from="8" to="22" intensity="0"/>
+    <comm from="11" to="12" intensity="71"/>
+    <comm from="4" to="8" intensity="0"/>
+  </communications>
+</mvs>
